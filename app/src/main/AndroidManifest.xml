@@ -16,6 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Tabbed1Activity"
+            android:label="@string/title_activity_tabbed1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tabbed2Activity"
+            android:label="@string/title_activity_tabbed2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tabbed3Activity"
+            android:label="@string/title_activity_tabbed3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tabbed4Activity"
+            android:label="@string/title_activity_tabbed4"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
